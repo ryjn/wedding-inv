@@ -16,7 +16,7 @@ export const Home = () => {
         </h3>
       </div>
       <img src={TopLine} className="p-6 w-auto h-48 md:h-64" />
-      <div className="w-3/4 flex flex-row justify-between">
+      <div className="w-4/5 md:w-3/4 flex flex-row justify-between">
         <div className="flex-1 flex-row text-left">
           <h3 className="text-sm md:text-base font-sansKR">신랑</h3>
           <h1 className="name text-3xl md:text-5xl font-nanum">김준</h1>
