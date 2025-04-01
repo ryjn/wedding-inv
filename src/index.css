@@ -1,8 +1,40 @@
 @import "tailwindcss";
 
+:root {
+  --color-bg: #f9f9f9;
+  --color-border: #d4d7b8;
+  --color-primary: #693a26;
+  --color-secondary: #816458;
+  --color-accent: #a9ae9b;
+
+  --font-serif: "NanumMyeongjo", serif;
+  --font-sans: "NotoSansKR", sans-serif;
+
+  --spacing-section: 2rem;
+  --spacing-gap: 1rem;
+}
+
 html,
 body {
   margin: 0;
-  padding: 0;
-  font-family: "Space Grotesk", sans-serif;
+  padding: 1rem;
+  font-family: var(--font-sans);
+  color: var(--color-secondary);
+}
+
+.wrapper {
+  max-width: 37.5rem;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+  border: 0.75rem solid var(--color-border);
+  background-color: var(--color-bg);
+}
+
+.name {
+  font-family: var(--font-serif);
+}
+
+.date {
+  font-family: var(--font-serif);
+  color: var(--color-accent);
 }
