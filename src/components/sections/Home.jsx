@@ -22,9 +22,9 @@ export const Home = () => {
           <h1 className="name text-3xl md:text-5xl font-nanum">김준</h1>
         </div>
         <div className="flex-1 flex-row text-center space-y-3">
-          <h3 className="date text-3xl">05</h3>
-          <hr className="border-t border-[var(--color-accent)] w-15 mx-auto" />
-          <h3 className="date text-3xl ">31</h3>
+          <h3 className="date text-2xl md:text-3xl">05</h3>
+          <hr className="border-t border-[var(--color-accent)] w-10 md:w-15 mx-auto" />
+          <h3 className="date text-2xl md:text-3xl ">31</h3>
         </div>
         <div className="flex-1 flex-row text-right">
           <h3 className="text-sm md:text-base font-sansKR">신부</h3>
@@ -33,8 +33,10 @@ export const Home = () => {
       </div>
       <img src={BottomLine} className="p-6 w-auto h-48 md:h-64" />
       <div className="text-center">
-        <h2 className="event-title text-2xl">2025.05.31</h2>
-        <h3>
+        <h2 className="event-title text-base md:text-2xl font-bold">
+          2025.05.31
+        </h2>
+        <h3 className="text-base md:text-2xl">
           오후 5시, 오가헌
           <br />
           광주광역시 동구 금남로4가 42
