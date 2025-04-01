@@ -9,14 +9,14 @@ export const Home = () => {
       className="min-h-screen flex flex-col items-center justify-center relative gap-6"
     >
       <div className="">
-        <h3 className="text-center">
+        <h3 className="text-base md:text-2xl text-center">
           해가 길어지는 저녁,
           <br />
           저희의 시작을 함께해 주세요
         </h3>
       </div>
       <img src={TopLine} className="p-6 w-auto h-48 md:h-64" />
-      <div className="w-4/5 md:w-3/4 flex flex-row justify-between">
+      <div className="w-[90%] md:w-[75%] flex flex-row justify-between">
         <div className="flex-1 flex-row text-left">
           <h3 className="text-sm md:text-base font-sansKR">신랑</h3>
           <h1 className="name text-3xl md:text-5xl font-nanum">김준</h1>
