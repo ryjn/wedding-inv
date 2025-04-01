@@ -30,7 +30,7 @@ body {
 }
 
 .wrapper {
-  max-width: 37.5rem;
+  max-width: 480px;
   margin: 0 auto;
   border: 0.75rem solid var(--color-border);
   background-color: var(--color-bg);
