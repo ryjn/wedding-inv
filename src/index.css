@@ -21,10 +21,14 @@
   --spacing-gap: 1rem;
 }
 
-html,
+html {
+  margin: 0;
+  padding: 1rem;
+}
 body {
   margin: 0;
   padding: 1rem;
+  border: 0.75rem solid var(--color-border);
   font-family: var(--font-sans);
   color: var(--color-secondary);
 }
