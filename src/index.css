@@ -38,3 +38,24 @@ body {
   font-family: var(--font-serif);
   color: var(--color-accent);
 }
+
+.divider {
+  height: 2px;
+  background-color: var(--color-accent);
+}
+
+.event-title {
+  font-family: var(--font-serif);
+}
+
+@media (min-height: 640px) {
+  .nav-arrow {
+    padding-top: 5rem;
+  }
+}
+
+@media (min-height: 768px) {
+  .nav-arrow {
+    padding-top: 10rem;
+  }
+}
