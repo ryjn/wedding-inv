@@ -1,10 +1,10 @@
-@import "tailwindcss";
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Poppins:wght@400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Noto+Sans+KR:wght@100..900&family=Poppins:wght@400;500;600&display=swap");
+@import "tailwindcss";
 
 @theme {
-  --font-serif: "NanumMyeongjo", serif;
-  --font-sans: "NotoSansKR", sans-serif;
+  --font-nanum: "NanumMyeongjo", serif;
+  --font-sansKR: "NotoSansKR", sans-serif;
 }
 
 :root {

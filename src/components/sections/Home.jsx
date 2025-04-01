@@ -18,8 +18,8 @@ export const Home = () => {
       <img src={TopLine} className="p-6 w-auto h-48 md:h-64" />
       <div className="w-full px-4 flex flex-row justify-between">
         <div className="flex-1 text-left">
-          <h3 className="text-base">신랑</h3>
-          <h1 className="name text-4xl md:text-5xl">김준</h1>
+          <h3 className="text-base font-sansKR">신랑</h3>
+          <h1 className="name text-4xl md:text-5xl font-nanum">김준</h1>
         </div>
         <div className="flex-1 text-center">
           <h3 className="date text-3xl">05</h3>
@@ -27,8 +27,8 @@ export const Home = () => {
           <h3 className="date text-3xl ">31</h3>
         </div>
         <div className="flex-1 text-right">
-          <h3 className="text-base">신부</h3>
-          <h1 className="name text-4xl md:text-5xl">정성윤</h1>
+          <h3 className="text-base font-sansKR">신부</h3>
+          <h1 className="name text-4xl md:text-5xl font-nanum">정성윤</h1>
         </div>
       </div>
       <img src={BottomLine} className="p-6 w-auto h-48 md:h-64" />
