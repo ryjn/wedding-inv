@@ -5,11 +5,11 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
 export const Home = () => {
   return (
-    <section
-      id="#home"
-      className="min-h-screen flex flex-col items-center justify-center relative gap-6"
-    >
-      <RevealOnScroll>
+    <RevealOnScroll>
+      <section
+        id="#home"
+        className="min-h-screen flex flex-col items-center justify-center relative"
+      >
         <h3 className="text-base md:text-2xl text-center">
           해가 길어지는 저녁,
           <br />
@@ -48,7 +48,7 @@ export const Home = () => {
             className="nav-arrow p-6 w-15 h-auto cursor-pointer"
           />
         </a>
-      </RevealOnScroll>
-    </section>
+      </section>
+    </RevealOnScroll>
   );
 };
