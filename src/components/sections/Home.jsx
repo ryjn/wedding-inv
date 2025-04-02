@@ -8,7 +8,7 @@ export const Home = () => {
     <RevealOnScroll>
       <section
         id="home"
-        className="h-screen p-10 flex flex-col items-center justify-between relative"
+        className="h-screen py-10 flex flex-col items-center justify-between relative"
       >
         <h3 className="text-base md:text-2xl text-center">
           해가 길어지는 저녁,
