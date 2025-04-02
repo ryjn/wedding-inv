@@ -7,16 +7,16 @@ export const Home = () => {
   return (
     <RevealOnScroll>
       <section
-        id="#home"
-        className="min-h-screen flex flex-col items-center justify-center relative"
+        id="home"
+        className="h-screen p-10 flex flex-col items-center justify-between relative"
       >
         <h3 className="text-base md:text-2xl text-center">
           해가 길어지는 저녁,
           <br />
           저희의 시작을 함께해 주세요
         </h3>
-        <img src={TopLine} className="p-6 w-auto h-48 md:h-64" />
-        <div className="w-[90%] md:w-[75%] flex flex-row justify-between">
+        <img src={TopLine} className="w-auto h-48 md:h-64" />
+        <div className="w-[90%] md:w-[60%] flex flex-row justify-between">
           <div className="flex-1 flex-row text-left">
             <h3 className="text-sm md:text-base font-sansKR">신랑</h3>
             <h1 className="name text-3xl md:text-5xl font-nanum">김준</h1>
@@ -31,7 +31,7 @@ export const Home = () => {
             <h1 className="name text-3xl md:text-5xl font-nanum">정성윤</h1>
           </div>
         </div>
-        <img src={BottomLine} className="p-6 w-auto h-48 md:h-64" />
+        <img src={BottomLine} className="w-auto h-48 md:h-64" />
         <div className="text-center">
           <h2 className="event-title text-base md:text-2xl font-bold">
             2025.05.31
@@ -43,10 +43,7 @@ export const Home = () => {
           </h3>
         </div>
         <a href="#map">
-          <img
-            src={DownArrow}
-            className="nav-arrow p-6 w-15 h-auto cursor-pointer"
-          />
+          <img src={DownArrow} className="w-4 h-auto cursor-pointer" />
         </a>
       </section>
     </RevealOnScroll>

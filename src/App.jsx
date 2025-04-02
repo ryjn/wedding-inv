@@ -1,10 +1,14 @@
 import "./App.css";
 import { Home } from "./components/sections/Home";
+import { Map } from "./components/sections/Map";
 
 function App() {
   return (
     <>
-      <Home />
+      <div>
+        <Home />
+        <Map />
+      </div>
     </>
   );
 }
