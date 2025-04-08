@@ -26,22 +26,17 @@ html {
   padding: 1rem;
 }
 body {
-  margin: 0;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 1rem;
   border: 0.75rem solid var(--color-border);
-  font-family: var(--font-sans);
+  /*font-family: var(--font-sans);*/
   color: var(--color-secondary);
 }
 
-.wrapper {
-  max-width: 480px;
-  margin: 0 auto;
-  border: 0.75rem solid var(--color-border);
-  background-color: var(--color-bg);
-}
-
 .name {
-  font-family: var(--font-serif);
+  /*font-family: var(--font-serif);*/
 }
 
 .date {
