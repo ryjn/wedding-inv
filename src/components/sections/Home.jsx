@@ -24,9 +24,13 @@ export const Home = () => {
             </h1>
           </div>
           <div className="flex-1 flex-row text-center space-y-3">
-            <h3 className="date text-2xl md:text-3xl">05</h3>
-            <hr className="border-t border-[var(--color-accent)] w-8 md:w-10 mx-auto" />
-            <h3 className="date text-2xl md:text-3xl ">31</h3>
+            <h3 className="text-2xl md:text-3xl font-nanum text-[var(--color-accent)]">
+              05
+            </h3>
+            <hr className="border-t border-[var(--color-accent)] w-7 md:w-8 mx-auto" />
+            <h3 className="text-2xl md:text-3xl font-nanum text-[var(--color-accent)]">
+              31
+            </h3>
           </div>
           <div className="flex-1 flex-row text-right space-y-3">
             <h3 className="text-xs md:text-base font-sansKR">신부</h3>

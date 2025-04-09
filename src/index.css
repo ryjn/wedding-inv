@@ -25,6 +25,7 @@ html {
   margin: 0;
   padding: 1rem;
 }
+
 body {
   width: 100%;
   max-width: 1200px;
@@ -33,24 +34,6 @@ body {
   border: 0.75rem solid var(--color-border);
   /*font-family: var(--font-sans);*/
   color: var(--color-secondary);
-}
-
-.name {
-  /*font-family: var(--font-serif);*/
-}
-
-.date {
-  font-family: var(--font-serif);
-  color: var(--color-accent);
-}
-
-.divider {
-  height: 2px;
-  background-color: var(--color-accent);
-}
-
-.event-title {
-  font-family: var(--font-serif);
 }
 
 .reveal {
