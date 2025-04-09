@@ -41,7 +41,7 @@ export const Map = () => {
             신부측
           </h3>
           <div className="flex-grow border-t border-gray-300 mx-4"></div>
-          <div className="text-base md:text-2xl text-right font-light">
+          <div className="text-sm md:text-2xl text-right font-light">
             <p className="text-left">
               국민 정성윤
               <br />
@@ -54,7 +54,7 @@ export const Map = () => {
             신랑측
           </h3>
           <div className="flex-grow border-t border-gray-300 mx-4"></div>
-          <div className="text-base md:text-2xl text-right font-light">
+          <div className="text-sm md:text-2xl text-right font-light">
             <p className="text-left">
               하나 박정희
               <br />
