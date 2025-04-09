@@ -7,7 +7,7 @@ export const Map = () => {
     <RevealOnScroll>
       <section
         id="map"
-        className="min-h-screen flex flex-col items-center justify-between relative gap-5"
+        className="h-[calc(100vh-65px)] flex flex-col items-center justify-between relative gap-5"
       >
         <div className="w-full h-auto">
           <img src={MapImg} className="" />
