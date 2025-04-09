@@ -34,7 +34,7 @@ export const Map = () => {
           <h3 className="pb-4 text-base md:text-2xl text-center">
             축하의 마음 전하시는 곳
           </h3>
-          <img src={DownArrow} className="w-3 md:w-4 h-auto mx-auto" />
+          <img src={DownArrow} className="py-4 w-3 md:w-4 h-auto mx-auto" />
         </div>
         <div className="flex w-[90%] md:w-[70%] justify-between items-center">
           <h3 className="text-base md:text-2xl text-left font-medium">
@@ -49,14 +49,14 @@ export const Map = () => {
             </p>
           </div>
         </div>
-        <div className="flex w-[90%] md:w-[70%] justify-between items-center">
+        <div className="flex w-[90%] md:w-[70%] justify-between items-center pb-9">
           <h3 className="text-base md:text-2xl text-left font-medium">
             신랑측
           </h3>
           <div className="flex-grow border-t border-gray-300 mx-4"></div>
           <div className="text-base md:text-2xl text-right font-light">
             <p className="text-left">
-              Bank info/Name
+              하나 박정희
               <br />
               219910-56-953407
             </p>

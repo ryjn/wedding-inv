@@ -15,23 +15,23 @@ export const Home = () => {
           <br />
           저희의 시작을 함께해 주세요
         </h3>
-        <img src={TopLine} className="w-auto h-48 md:h-auto" />
+        <img src={TopLine} className="w-auto h-36 md:h-auto" />
         <div className="w-[90%] md:w-[70%] flex flex-row justify-between items-center">
           <div className="flex-1 flex-row text-left space-y-3">
             <h3 className="text-sm md:text-base font-sansKR">신랑</h3>
-            <h1 className="text-3xl md:text-5xl font-nanum">김준</h1>
+            <h1 className="text-2xl md:text-5xl font-nanum">김준</h1>
           </div>
           <div className="flex-1 flex-row text-center space-y-3">
             <h3 className="date text-2xl md:text-3xl">05</h3>
-            <hr className="border-t border-[var(--color-accent)] w-10 md:w-15 mx-auto" />
+            <hr className="border-t border-[var(--color-accent)] w-8 md:w-10 mx-auto" />
             <h3 className="date text-2xl md:text-3xl ">31</h3>
           </div>
           <div className="flex-1 flex-row text-right space-y-3">
             <h3 className="text-sm md:text-base font-sansKR">신부</h3>
-            <h1 className="text-3xl md:text-5xl font-nanum">정성윤</h1>
+            <h1 className="text-2xl md:text-5xl font-nanum">정성윤</h1>
           </div>
         </div>
-        <img src={BottomLine} className="w-auto h-48 md:h-auto" />
+        <img src={BottomLine} className="w-auto h-36 md:h-auto" />
         <div className="text-center space-y-3">
           <h2 className="text-xl md:text-3xl font-nanum font-medium">
             2025.05.31
