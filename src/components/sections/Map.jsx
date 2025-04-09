@@ -37,7 +37,7 @@ export const Map = () => {
           <img src={DownArrow} className="py-4 w-3 md:w-4 h-auto mx-auto" />
         </div>
         <div className="flex w-[90%] md:w-[70%] justify-between items-center">
-          <h3 className="text-base md:text-xl text-left font-medium">신부측</h3>
+          <h3 className="text-base md:text-xl text-left font-medium">신부</h3>
           <div className="flex-grow border-t border-gray-300 mx-4"></div>
           <div className="text-base md:text-xl text-right font-light">
             <p className="text-left">
@@ -48,7 +48,7 @@ export const Map = () => {
           </div>
         </div>
         <div className="flex w-[90%] md:w-[70%] justify-between items-center pb-9">
-          <h3 className="text-base md:text-xl text-left font-medium">신랑측</h3>
+          <h3 className="text-base md:text-xl text-left font-medium">신랑</h3>
           <div className="flex-grow border-t border-gray-300 mx-4"></div>
           <div className="text-base md:text-xl text-right font-light">
             <p className="text-left">
