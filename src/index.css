@@ -14,9 +14,6 @@
   --color-secondary: #816458;
   --color-accent: #a9ae9b;
 
-  --font-serif: "NanumMyeongjo", serif;
-  --font-sans: "NotoSansKR", sans-serif;
-
   --spacing-section: 2rem;
   --spacing-gap: 1rem;
 }
@@ -32,7 +29,6 @@ body {
   margin: 0 auto;
   padding: 1rem;
   border: 0.75rem solid var(--color-border);
-  /*font-family: var(--font-sans);*/
   color: var(--color-secondary);
 }
 
