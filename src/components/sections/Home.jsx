@@ -19,9 +19,9 @@ export const Home = () => {
         <div className="w-[90%] md:w-[70%] flex flex-row justify-between items-center">
           <div className="flex-1 flex-row text-left space-y-3">
             <h3 className="text-xs md:text-base font-sansKR">신랑</h3>
-            <h3 className="text-2xl md:text-5xl font-nanum tracking-wider">
+            <h1 className="text-2xl md:text-5xl font-nanum tracking-wider">
               김준
-            </h3>
+            </h1>
           </div>
           <div className="flex-1 flex-row text-center space-y-3">
             <h3 className="text-2xl md:text-3xl font-nanum text-[var(--color-accent)]">

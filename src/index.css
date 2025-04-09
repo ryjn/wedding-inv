@@ -3,7 +3,7 @@
 @import "tailwindcss";
 
 @theme {
-  --font-nanum: "NanumMyeongjo", serif;
+  --font-nanum: "Nanum Myeongjo", serif;
   --font-sansKR: "NotoSansKR", sans-serif;
 }
 
