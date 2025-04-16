@@ -1,14 +1,27 @@
+import { useEffect } from "react";
 import TopLine from "../../assets/top_line.svg";
 import BottomLine from "../../assets/bottom_line.svg";
 import DownArrow from "../../assets/down_arrow.svg";
 import { RevealOnScroll } from "../RevealOnScroll";
 
 export const Home = () => {
+  useEffect(() => {
+    const setViewportHeight = () => {
+      const vh = window.innerHeight * 0.01;
+      document.documentElement.style.setProperty("--vh", `${vh}px`);
+    };
+
+    setViewportHeight();
+    window.addEventListener("resize", setViewportHeight);
+    return () => window.removeEventListener("resize", setViewportHeight);
+  }, []);
+
   return (
     <RevealOnScroll>
       <section
         id="home"
-        className="h-dvh py-5 flex flex-col items-center justify-between relative"
+        className="py-5 flex flex-col items-center justify-between relative"
+        style={{ height: "calc(var(--vh, 1vh) * 100" }}
       >
         <h3 className="text-base md:text-xl text-center font-light">
           해가 길어지는 저녁,
