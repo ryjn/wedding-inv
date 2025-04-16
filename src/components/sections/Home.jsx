@@ -1,23 +1,14 @@
-import { useState, useEffect } from "react";
 import TopLine from "../../assets/top_line.svg";
 import BottomLine from "../../assets/bottom_line.svg";
 import DownArrow from "../../assets/down_arrow.svg";
 import { RevealOnScroll } from "../RevealOnScroll";
 
 export const Home = () => {
-  const [fixedHeight, setFixedHeight] = useState(null);
-
-  useEffect(() => {
-    const height = window.innerHeight;
-    setFixedHeight(height);
-  }, []);
-
   return (
     <RevealOnScroll>
       <section
         id="home"
-        className="py-5 flex flex-col items-center justify-between relative"
-        style={{ height: fixedHeight ? `$(fixedHeight)px` : "100vh" }}
+        className="h-svh py-5 flex flex-col items-center justify-between relative"
       >
         <h3 className="text-base md:text-xl text-center font-light">
           해가 길어지는 저녁,
